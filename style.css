@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+    font-family: Arial;
+}
+.pozadina{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    padding: 560x 120px;
+    
+}
+.logo-brat img{
+    width: 150px;
+    align-items: 10px 100px;
+}
+.linkovi{
+    flex: 1;
+}
+.linkovi ul{
+    margin: 40px 580px;
+    display: inline;
+    
+}
+.linkovi ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 25px;
+    
+}
+.linkovi ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.linkovi ul li::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    
+}
+.linkovi ul li:hover::after{
+    width: 100%;
+    
+}
+.naslov{
+    font-size: 50px;
+    padding: 55px 450px;
+    color: #fff; 
+    text-align: center;
+     
+}
+.cvto-brat{
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 300px;
+    text-align: center;
+    
+}
